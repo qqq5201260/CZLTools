@@ -14,6 +14,7 @@
 		1825322A1E7106710038F58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182532291E7106710038F58E /* Assets.xcassets */; };
 		1825322D1E7106710038F58E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1825322B1E7106710038F58E /* LaunchScreen.storyboard */; };
 		182532371E7106A20038F58E /* ToolsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 182532361E7106A20038F58E /* ToolsModel.m */; };
+		1825323A1E7107A50038F58E /* TempModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 182532391E7107A50038F58E /* TempModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		1825322E1E7106710038F58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182532351E7106A20038F58E /* ToolsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsModel.h; sourceTree = "<group>"; };
 		182532361E7106A20038F58E /* ToolsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolsModel.m; sourceTree = "<group>"; };
+		182532381E7107A50038F58E /* TempModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempModel.h; sourceTree = "<group>"; };
+		182532391E7107A50038F58E /* TempModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				182532351E7106A20038F58E /* ToolsModel.h */,
 				182532361E7106A20038F58E /* ToolsModel.m */,
+				182532381E7107A50038F58E /* TempModel.h */,
+				182532391E7107A50038F58E /* TempModel.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			files = (
 				182532251E7106710038F58E /* ViewController.m in Sources */,
 				182532371E7106A20038F58E /* ToolsModel.m in Sources */,
+				1825323A1E7107A50038F58E /* TempModel.m in Sources */,
 				182532221E7106710038F58E /* AppDelegate.m in Sources */,
 				1825321F1E7106710038F58E /* main.m in Sources */,
 			);
@@ -326,6 +332,7 @@
 				182532331E7106710038F58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
